@@ -34,7 +34,7 @@ nav button {
   cursor: pointer;
   transition: 150ms;
 }
-nav button:hover{
+nav button:hover {
   box-shadow: #27ae60 0px 0px 15px 3px;
 }
 nav ul {
@@ -42,8 +42,8 @@ nav ul {
   justify-content: space-evenly;
   width: 500px;
 }
-.hero {
-  background-image: url(/assets/imgs/hero-bg.png);
+.hero-section .hero {
+background-image: url(./../imgs/hero-bg.png);
   height: 520px;
   background-position: center;
   background-size: cover;
@@ -74,12 +74,12 @@ nav ul {
   display: flex;
   justify-content: space-between;
 }
-.featured-card:hover{
+.featured-card:hover {
   border-color: white;
   background-color: rgb(112 121 138 / 18%);
-  transform:translateY(10px) ;
+  transform: translateY(10px);
 }
-.featured-card:active{
+.featured-card:active {
   transform: translateY(-10px);
   background-color: rgba(192, 204, 225, 0.18);
 }
