@@ -1,0 +1,190 @@
+* {
+  font-family: "Poppins";
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 80px;
+  height: 50px;
+}
+nav img {
+  width: 100px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  transition: 160ms;
+}
+nav a:hover {
+  color: #27ae60;
+}
+nav li {
+  list-style-type: none;
+  font-weight: 500;
+}
+nav button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 150ms;
+}
+nav button:hover{
+  box-shadow: #27ae60 0px 0px 15px 3px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+}
+.hero {
+  background-image: url(/assets/imgs/hero-bg.png);
+  height: 520px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero p {
+  padding-bottom: 20px;
+}
+.properties {
+  padding: 0 80px;
+}
+.property-title {
+  font-size: 2rem;
+  color: #222;
+}
+.property-description {
+  font-size: 12px;
+}
+.featured-cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.featured-card:hover{
+  border-color: white;
+  background-color: rgb(112 121 138 / 18%);
+  transform:translateY(10px) ;
+}
+.featured-card:active{
+  transform: translateY(-10px);
+  background-color: rgba(192, 204, 225, 0.18);
+}
+.featured-card {
+  cursor: pointer;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+  border-color: rgb(112 121 138 / 18%);
+  border-radius: 5px;
+  border-style: solid;
+  justify-content: center;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.featured-card img {
+  margin-bottom: 20px;
+  width: 50px;
+}
+.featured-card span {
+  color: #9d99a6;
+  font-size: smaller;
+}
+.recent-proerty-cards {
+  margin-top: 50px;
+  justify-content: space-between;
+  display: flex;
+}
+.recent-property-card {
+  width: 386px;
+}
+.recent-property-card-img {
+  border-radius: 5px 5px 0px 0px;
+
+  width: 100%;
+}
+.location-house {
+  padding-left: 10px;
+  gap: 2px;
+  color: #9d99a6;
+  display: flex;
+  align-items: center;
+  border-bottom-style: solid;
+  border-color: rgb(112 121 138 / 18%);
+  border-width: 1px;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.card-footer button {
+  color: #27ae60;
+  background-color: rgba(37, 181, 121, 0.1);
+  border: none;
+  border-radius: 5px;
+}
+.img-card-desc {
+  font-weight: 500;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+.card-footer span {
+  font-size: 14px;
+  padding-right: 5px;
+}
+.explore-locations-cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 700px;
+}
+.featured-container,
+.explore-locations-container,
+.recent-properties-container {
+  margin-top: 100px;
+}
+.explore-locations-cards img {
+  width: 100%;
+  border-radius: 5px;
+}
+.explore-locations-card-footer {
+  padding-left: 10px;
+  color: #9d99a6;
+  display: flex;
+  justify-content: space-between;
+}
+.explore-locations-card {
+  width: 386px;
+}
+footer {
+  background-color: #1d2636;
+  margin-top: 50px;
+  height: 50px;
+  color: #9d99a6;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
