@@ -223,7 +223,7 @@ nav .list-btn path {
     width: 300px;
   }
 }
-@media (min-width: 431) and (max-width: 884px) {
+@media (min-width: 431px) and (max-width: 884px) {
   .properties {
     padding: 0 20px;
   }
