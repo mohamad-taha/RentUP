@@ -2,6 +2,7 @@
   font-family: "Poppins";
   margin: 0;
 }
+/* nav-section */
 nav {
   display: flex;
   justify-content: space-between;
@@ -42,8 +43,28 @@ nav ul {
   justify-content: space-evenly;
   width: 500px;
 }
+nav .list-btn {
+  display: none;
+}
+nav .list-btn path {
+  fill: white;
+}
+@media (max-width: 834px) {
+  nav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  nav ul,
+  nav button {
+    display: none;
+  }
+  nav .list-btn {
+    display: block;
+  }
+}
+/* hero-section */
 .hero-section .hero {
-background-image: url(./../imgs/hero-bg.png);
+  background-image: url(./../imgs/hero-bg.png);
   height: 520px;
   background-position: center;
   background-size: cover;
@@ -59,6 +80,13 @@ background-image: url(./../imgs/hero-bg.png);
 .hero p {
   padding-bottom: 20px;
 }
+@media (max-width: 360px) {
+  .hero {
+    text-align: center;
+    padding: 0 20px;
+  }
+}
+/* properties-section */
 .properties {
   padding: 0 80px;
 }
@@ -95,10 +123,6 @@ background-image: url(./../imgs/hero-bg.png);
   border-radius: 5px;
   border-style: solid;
   justify-content: center;
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -ms-transition: 0.4s;
-  -o-transition: 0.4s;
 }
 .featured-card img {
   margin-bottom: 20px;
@@ -118,7 +142,6 @@ background-image: url(./../imgs/hero-bg.png);
 }
 .recent-property-card-img {
   border-radius: 5px 5px 0px 0px;
-
   width: 100%;
 }
 .location-house {
@@ -178,6 +201,46 @@ background-image: url(./../imgs/hero-bg.png);
 .explore-locations-card {
   width: 386px;
 }
+@media (max-width: 360px) {
+  .properties {
+    padding: 0 20px;
+  }
+  .property-description,
+  .property-title {
+    text-align: center;
+  }
+  .explore-locations-cards {
+    gap: 30px;
+    height: max-content;
+  }
+  .featured-cards,
+  .recent-proerty-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .recent-property-card {
+    width: 300px;
+  }
+}
+@media (min-width: 361px) and (max-width: 834px) {
+  .properties {
+    padding: 0 20px;
+  }
+  .featured-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .recent-property-card {
+    width: 250px;
+  }
+  .explore-locations-cards {
+    height: max-content;
+    gap: 20px;
+  }
+}
+/* footer-setion */
 footer {
   background-color: #1d2636;
   margin-top: 50px;
