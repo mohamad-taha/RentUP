@@ -80,7 +80,7 @@ nav .list-btn path {
 .hero p {
   padding-bottom: 20px;
 }
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .hero {
     text-align: center;
     padding: 0 20px;
@@ -201,7 +201,7 @@ nav .list-btn path {
 .explore-locations-card {
   width: 386px;
 }
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .properties {
     padding: 0 20px;
   }
@@ -223,7 +223,7 @@ nav .list-btn path {
     width: 300px;
   }
 }
-@media (min-width: 361px) and (max-width: 834px) {
+@media (min-width: 431) and (max-width: 834px) {
   .properties {
     padding: 0 20px;
   }
