@@ -233,9 +233,13 @@ nav .list-btn path {
     gap: 30px;
   }
   .recent-property-card {
+    width: 240px;
+  }
+  .explore-locations-card {
     width: 250px;
   }
   .explore-locations-cards {
+    justify-content: center;
     height: max-content;
     gap: 20px;
   }
